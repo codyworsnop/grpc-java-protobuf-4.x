@@ -4,9 +4,7 @@ netty = '4.1.110.Final'
 #   SECURITY.md
 nettytcnative = '2.0.70.Final'
 opencensus = "0.31.1"
-# Not upgrading to 4.x as it is not yet ABI compatible.
-# https://github.com/protocolbuffers/protobuf/issues/17247
-protobuf = "3.25.5"
+protobuf = "4.31.0"
 
 [libraries]
 android-annotations = "com.google.android:annotations:4.1.1.4"
