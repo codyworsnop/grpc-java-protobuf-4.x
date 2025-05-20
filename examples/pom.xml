@@ -15,6 +15,7 @@
     <grpc.version>1.74.0-SNAPSHOT</grpc.version><!-- CURRENT_GRPC_VERSION -->
     <protobuf.version>4.31.0</protobuf.version>
     <protoc.version>4.31.0</protoc.version>
+    <gson.version>2.11.0</gson.version>
     <!-- required for JDK 8 -->
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
@@ -54,6 +55,11 @@
       <groupId>com.google.protobuf</groupId>
       <artifactId>protobuf-java-util</artifactId>
       <version>${protobuf.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>${gson.version}</version>
     </dependency>
     <dependency> <!-- Use newer version than in protobuf-java-util -->
       <groupId>com.google.j2objc</groupId>
